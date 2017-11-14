@@ -1,9 +1,9 @@
 	<footer role="contentinfo" class="group"></footer>
 	
 	<div class="credits">
-		<code>
+		<small>
 			<a href="http://stevehoneyman.co.uk"><?php the_field('site_credits', 'options'); ?></a>
-		</code>
+		</small>
 	</div>
 
 </div><!-- site wrapper ends-->

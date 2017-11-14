@@ -260,6 +260,12 @@ a:hover {
 	color: #444;
 }
 
+/* ========= TYPOGRAPHY ============ */
+
+small a {
+	font-size: 0.75rem;
+}
+
 /* ============ LAYOUT ============= */
 
 
@@ -298,6 +304,8 @@ footer {
 	margin: 0.5rem 1% 1rem;
 	text-align: center;
 }
+
+
 
 /* ============= GRIDS ============== */
 

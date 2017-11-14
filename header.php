@@ -26,32 +26,32 @@
 		</div>
 
 		<nav class="main-nav-container group">
+
+		<?php wp_nav_menu( array( 
+				'menu_class' => 'main-nav',
+				'menu_id' => 'nav',
+				'theme_location' => 'header-menu', 
+				'container' => '', 
+				'fallback_cb' => '', 
+				'depth' => '2'
+			));?>	
+
+			
+		<!--	
 			<ul id="nav" class="main-nav">
 				<li><a href="#">Layouts</a>
 					<ul>
 						<li><a href="http://boilerplate.dev/nav-item-two/">Single Page</a></li>
-						<!--<li><a href="http://boilerplate.dev/nav-item-three/">Basic Grid</a></li>-->
 						<li><a href="http://boilerplate.dev/nav-item-four/">Nth Child Grid</a></li>
 					</ul>
 				</li>
 
-				<li><a href="#">Nav Item</a>
-				<!--	
-					<ul>
-						<li><a href="#">Sub Nav Item</a></li>
-						<li><a href="#">Sub Nav Item</a></li>
-						<li><a href="#">Sub Nav Item</a></li>
-						<li><a href="#">Sub Nav Item</a></li>
-						<li><a href="#">Sub Nav Item</a></li>
-						<li><a href="#">Sub Nav Item</a></li>
-					</ul>
-				-->	
-				</li>
-
+				<li><a href="#">Nav Item</a></li>
 				<li><a href="#">Nav Item</a></li>
 				<li><a href="#">Nav Item</a></li>
 				<li><a href="#">Nav Item</a></li>
 			</ul>
+		-->	
 		</nav>
 
 		<?php 

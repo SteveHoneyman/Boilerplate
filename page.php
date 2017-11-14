@@ -4,8 +4,8 @@
 	<div class="container">
 
 	<section class="content">
-		
-		 <?php get_template_part('templates/loop'); ?>
+			
+		<?php get_template_part('templates/loop'); ?>
 
 	</section>
 
