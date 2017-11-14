@@ -1,0 +1,474 @@
+
+/* ============ RESET =============== */
+/* --- cache tested and working 17.27 pm, 08 Nov ----*/
+/* --- cache tested and working 14.39 pm, 09 Nov ----*/
+
+* {
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open sans';
+	color: #777;
+	font-weight: 300;
+	background: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ========== HEADER =========== */
+
+.main-nav-container {
+	min-height: 50px;
+	padding: 1rem 1%;
+	border: 1px solid #777;
+	margin: 0 1% 16px;
+}
+
+.header-top {
+	position: relative;
+/* padding-top: 8px; */
+}	
+
+.logo {
+	position: absolute;
+	top: 5px;
+	left: 2%;
+	width: 40px; 
+	height: 40px;
+/* border: 1px solid #777; */
+/*	float: left;	*/
+	cursor: pointer;
+}
+
+/* ============ NAVIGATION ============= */
+
+
+/* -------- navicon starts ------------ */
+
+.navicon {
+	position: absolute;
+	top: 3px;
+	right: 1%; /* was 0.5% */
+	width: 40px; /* tap target was 36px */
+	height: 40px; /* tap target was 36px */
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.navicon i {
+	position: absolute;
+	top: 18px;
+	right: 9px;
+	width: 18px;
+	height: 2px;
+	background: #777;
+	transition: all 300ms;
+}
+
+.navicon i:first-child {
+	top: 12px;
+	transform-origin: left center;
+}
+
+.navicon i:last-child {
+	top: 24px;
+	transform-origin: left center;
+}	
+
+.show-nav .navicon i:first-child + i {
+	opacity: 0;
+}
+
+.show-nav .navicon i:first-child {
+	transform: rotate(45deg);
+}
+
+
+.show-nav .navicon i:last-child {
+	transform: rotate(-45deg);
+}
+
+/* -------- main-nav (ie top level) styles --------- */
+
+.main-nav {
+	display: none;
+} 
+
+.show-nav .main-nav { /* added to body tag by boot.js when navicon clicked */
+	display: block;
+} 
+
+ul	{
+	margin-top: 3rem; /* sets height between top of nav elements and logo and navicon */
+}
+
+.main-nav li {
+	padding-bottom: 4px;
+	border-bottom: 1px solid #f2f2f2;
+	margin-top: 8px;
+}
+
+.main-nav li:last-of-type {
+	margin-bottom: 16px;
+}
+
+
+/* ------- secondary nav styles ------- */
+
+.main-nav > li { /* set main nav li elelments to be relative (allows absolute positioning for children of main-nav li) */
+  position: relative;
+}
+
+.main-nav > li.menu-open .menu-toggle:after {
+  transform: translate3d(-50%, -25%, 0) rotate(-135deg);
+}
+
+.main-nav > li.menu-open ul {
+  display: block;
+  margin-top: 0;
+}
+
+.main-nav > li .menu-toggle {
+  position: absolute;
+  top: 0px;
+  right: 0.75%; /* controls position of toggle */
+  width: 25px; /* sets tap target width */
+  height: 25px; /* sets tap target height */
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.main-nav > li .menu-toggle:after { /* :after element addded via boot.js when .navicon clicked */
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  transition: 300ms transform;
+  transform: translate3d(-50%, -75%, 0) rotate(45deg);
+}
+
+.main-nav > li ul { /* controls padding of nested elements */
+  display: none;
+  padding: 11px 0 0 30px;
+  margin-bottom: 0px;
+  font-size: 90%;
+}
+
+.main-nav > li ul li {
+	border-bottom: none;
+}
+
+
+/* -------- navigation media queries ----- */
+
+
+@media screen and (min-width: 800px) {
+
+
+	.logo {
+
+		top: 13px;
+		
+		width: 50px;
+		height: 50px;
+
+	}
+
+	.navicon {
+		display: none;
+	}
+
+	.main-nav {
+		display: block;
+		margin-top: 0;
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		border: none;
+		padding: 0;
+		margin-left: 16px;
+
+	/*
+		padding-bottom: 0;
+	*/	
+	
+	}
+
+	.menu-toggle, .menu-toggle:after {
+		display: none;
+	}
+
+	.main-nav > li ul {
+		position: absolute;
+		top: 125%;
+		display: block;
+		width: 100px;
+		min-height: 100px;
+		padding: 0;
+		border: 1px solid #ccc;
+		margin: 0;
+		background-color: #fff;
+	/*	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);	*/
+	/*	text-align: center;	*/
+		visibility: visible;
+		opacity: 0;
+	}
+
+	.main-nav > li:hover ul {
+		visibility: visible;	
+		opacity: 1;	
+	}
+
+	.main-nav > li ul li {
+		margin-left: .5rem;
+	}
+
+	.main-nav > li ul li a {
+		
+		font-size: 0.75rem;
+	}
+}	
+
+/* ------------ links -------------- */
+
+a {
+	color: #777;
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+a:hover {
+	color: #444;
+}
+
+/* ============ LAYOUT ============= */
+
+
+#site-wrapper {
+	width: 96%;
+	max-width: 960px;
+	padding: 8px 0;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.content {
+	width: 98%;
+	min-height: 240px;
+	padding: 1rem;
+	border: 1px solid #777;
+	margin: 1rem 1%;
+}
+
+.slider {
+	width: 98%;
+	height: 240px;
+	border: 1px solid #777;
+	margin: 0 1% 1rem;
+}
+
+footer {
+	width: 98%;
+	min-height: 150px;
+	border: 1px solid #777;
+	margin: 0 1%;
+}
+
+.credits {
+	width: 98%;
+	margin: 0.5rem 1% 1rem;
+	text-align: center;
+}
+
+/* ============= GRIDS ============== */
+
+.full-width {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #777;
+	margin-bottom: 1rem;
+}
+
+.full-width-empty { 
+	width: 100%;
+	border: 1px solid #777;
+	margin-bottom: 1rem;
+}
+
+
+.half-width {
+	width: 98%;
+	height: 240px;
+	border: 1px solid #777;
+	margin: 0 1% 1rem 1%;
+}
+
+/* ------------- box ------------*/
+
+.box {
+	width: 98%; 
+	height: 120px;
+	border: 1px solid #777;
+	margin: 0 1% 1rem;
+}
+
+@media screen and (min-width: 480px) {
+    .box, .half-width {
+        width: 48%; 
+		float: left;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .box {
+        width: 23%; 
+     }
+}
+
+/* ----------- nth-grid ------------ */
+
+/* single col */
+.nth-grid {
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 1rem;
+}
+
+/* two cols */
+@media only screen and (min-width: 600px) {
+			
+	.nth-grid {
+		width: 49.5%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.nth-grid:nth-child(2n+1) { /* count up from 1 in steps of 2 */
+		margin-left: 0;
+		border: 1px solid red;
+	}
+}
+
+/* three cols */
+@media only screen and (min-width: 900px) {
+
+	.nth-grid {
+		width: 32.6%;
+	}
+
+	.nth-grid:nth-child(2n+1) { 
+		margin-left: 1%;
+	}
+
+	.nth-grid:nth-child(3n+1) { /* count up from 1 in steps of 3 */
+		margin-left: 0;
+		border: 1px solid green;
+	}
+}
+
+/*  four cols */
+	@media only screen and (min-width: 1200px) {
+
+	.nth-grid {
+		width: 24.25%;
+	}	
+
+	.nth-grid:nth-child(3n+1) {
+		margin-left: 1%;
+	}
+
+	.nth-grid:nth-child(4n+1) { /* count up from 1 in steps of 4 */
+		margin-left: 0;
+		border: 1px solid blue;
+	}
+} 	
+
+/* ---------------- forms ----------------- */	
+
+
+form {
+	width: 100%;
+}
+
+input {
+	display: block;
+	width: 98%;
+	padding: 0.5rem 0;
+	border: 1px solid #777;	
+	margin: 1rem auto;
+}
+
+input::placeholder {
+	text-align: center;
+	color: #ccc;
+}
+
+input[type="submit"] {
+	color: #ccc;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+	form {
+		max-width: 600px;
+		padding: 2rem 0;
+		margin: 0 auto;
+	}
+
+	input {
+		display: inline-block;
+		width: 24.4%;
+	}
+}
+
+
+/* ================ TOOLS =============== */
+
+.wrap {
+	padding: 0 1%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
