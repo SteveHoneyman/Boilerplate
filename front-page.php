@@ -1,12 +1,9 @@
 <?php /* Template Name: basic grid layout */ get_header(); ?>
 
-	<p class="wrap"></p>
-
-	<!-- page content starts -->
+<!-- page content starts -->
 	<div class="container">
-	
+
 		<section class="grid group">
-			
 		<!-- Half page containeers -->
 			<div class="half-width"></div>
 			<div class="half-width"></div>

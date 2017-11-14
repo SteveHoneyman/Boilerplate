@@ -18,20 +18,15 @@
 <div id="site-wrapper" class="group">
 
 	<header role="banner">
-		
 		<div class="header-top group">	
-			
 			<a href="http://boilerplate.dev/">
 				<img src="<?php bloginfo('template_directory'); ?>/images/logo.svg" class="logo">
 			</a>
 			<a href="#" class="navicon"><i></i><i></i><i></i></a>
-		
 		</div>
 
 		<nav class="main-nav-container group">
-			
 			<ul id="nav" class="main-nav">
-				
 				<li><a href="#">Layouts</a>
 					<ul>
 						<li><a href="http://boilerplate.dev/nav-item-two/">Single Page</a></li>
@@ -39,8 +34,6 @@
 						<li><a href="http://boilerplate.dev/nav-item-four/">Nth Child Grid</a></li>
 					</ul>
 				</li>
-
-				
 
 				<li><a href="#">Nav Item</a>
 				<!--	
@@ -58,18 +51,22 @@
 				<li><a href="#">Nav Item</a></li>
 				<li><a href="#">Nav Item</a></li>
 				<li><a href="#">Nav Item</a></li>
-
 			</ul>
-	
 		</nav>
 
-		<div class="masthead">
-			<h1></h1>
+		<?php 
+			$banner_id = get_field('custom_banner');	
+			$banner_size = "full";
+			$banner_arr = wp_get_attachment_image_src( $banner_id, $banner_size );
+		?>
+
+		<div class="masthead wrap" style="background-image: url(<?php echo $banner_arr[0]; ?>); background-repeat: repeat-x; ">
+			<h2>masthead.</h2>
 		</div>
 	
 	</header>
-	<div class="slider"></div>
-
+	
+	
 
 
 

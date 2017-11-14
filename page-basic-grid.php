@@ -2,6 +2,8 @@
 
 	<!-- page content starts -->
 	<div class="container">
+
+		<div class="slider"></div>
 	
 		<section class="grid group">
 			<div class="box"></div>

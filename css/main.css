@@ -244,7 +244,6 @@ ul	{
 	}
 
 	.main-nav > li ul li a {
-		
 		font-size: 0.75rem;
 	}
 }	
@@ -272,19 +271,19 @@ a:hover {
 	background: #fff;
 }
 
+.masthead {
+	width: 98%;
+	height: 240px;
+	border: 1px solid #777;
+	margin: 0 1% 1rem;
+}
+
 .content {
 	width: 98%;
 	min-height: 240px;
 	padding: 1rem;
 	border: 1px solid #777;
 	margin: 1rem 1%;
-}
-
-.slider {
-	width: 98%;
-	height: 240px;
-	border: 1px solid #777;
-	margin: 0 1% 1rem;
 }
 
 footer {
@@ -352,8 +351,10 @@ footer {
 	display: block;
 	width: 100%;
 	height: 50px;
+	padding: 0.5rem 1%;
 	border: 1px solid #ccc;
 	margin-bottom: 1rem;
+/*	font-size: 0.75rem;	*/
 }
 
 /* two cols */
