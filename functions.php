@@ -20,8 +20,8 @@ add_action('wp_enqueue_scripts', 'theme_js');
 function register_theme_menus() {
 	register_nav_menus( // register multiple custom menus
 		array(
-			'header-menu' => __('Header Menu'), // double underscore __ caters for internationalisation
-			'footer-menu' => __('Footer Menu') // double underscore __ caters for internationalisation
+			'header-menu' => __('Header Menu'), 
+			'footer-menu' => __('Footer Menu') 
 			)
 		);
 }
@@ -44,7 +44,7 @@ add_theme_support('post-thumbnails');
 // show admin bar
 add_filter('show_admin_bar', '__return_true');
 
-// add custom post typeand taxonomy
+// add custom post type and taxonomy
 // custom post type
 function create_cpt() {
 
@@ -106,7 +106,7 @@ function create_taxo() {
 add_action( 'init' , 'create_taxo');
 
 
-//Enable widget area
+//enable widget area
 function boilerplate_widgets_init() {
     
     register_sidebar( array (

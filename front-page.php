@@ -4,10 +4,8 @@
 	<div class="container">
 
 		<section class="grid group">
-		<!-- Half page containeers -->
 			<div class="half-width"></div>
 			<div class="half-width"></div>
-		<!-- Quarter page containers -->
 			<div class="box"></div>
 			<div class="box"></div>
 			<div class="box"></div>
