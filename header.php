@@ -38,24 +38,18 @@
 
 		<?php 
 
-			// $banner_id = get_field('custom_banner');	
-			// $banner_size = "full";
-			// $banner_arr = wp_get_attachment_image_src( get_field('custom_banner'), 'full' );
-
 			$banner_arr = wp_get_attachment_image_src( get_field('custom_banner'), 'full' );
 			$banner_tat_arr = wp_get_attachment_image_src(get_field ('banner_tat'), 'full');
 			$colour = hex2rgba(get_field('choose_colour'), get_field('element_opacity')); 
-		//	$element_opacity = get_field('element_opacity');
 		?>
 
 		<div class="masthead wrap">
-
+			
 			<style>
 				
 				.masthead {
 					background-image: url('<?php echo $banner_arr[0]?>');
 					background-color: <?php echo $colour; ?>; 
-				/*	opacity: <?php echo $element_opacity; ?> ; */
 					background-blend-mode: <?php echo strtolower(get_field('blend')) ; ?>;
 				}
 
@@ -64,13 +58,9 @@
 				}
 
 			</style>
-				
-
-
-
-			<h2><!-- text --></h2>	
+			
+			<h2></h2>	
 		</div>
-	
 	</header>
 	
 	
