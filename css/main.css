@@ -278,11 +278,29 @@ small a {
 }
 
 .masthead {
+	position: relative;
 	width: 98%;
 	height: 240px;
 	border: 1px solid #777;
 	margin: 0 1% 1rem;
+	background-repeat: none;
 }
+
+.masthead:after {
+		position: absolute;
+		bottom: 0;
+		left: -0.1%;
+		width: 99%;
+		height: 20px;
+		padding-left: 1%; 
+		content: '';
+		color: #ccc;
+		z-index: 10;
+	/*	background-image: url('images/red.jpg');	*/
+	/*	background-repeat: none;	*/	
+	/*	background-color: maroon;	*/
+	/*	opacity: 0.85; */
+	}
 
 .content {
 	width: 98%;
