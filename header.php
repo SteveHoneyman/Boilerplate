@@ -40,7 +40,7 @@
 
 			$banner_arr = wp_get_attachment_image_src( get_field('custom_banner'), 'full' );
 			$banner_tat_arr = wp_get_attachment_image_src(get_field ('banner_tat'), 'full');
-			$colour = hex2rgba(get_field('choose_colour'), get_field('element_opacity')); 
+			$colour = hex2rgba(get_field('header_bg_colour'), get_field('background_opacity')); 
 		?>
 
 		<div class="masthead wrap">

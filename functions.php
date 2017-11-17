@@ -122,7 +122,7 @@ function boilerplate_widgets_init() {
  
  add_action( 'widgets_init', 'boilerplate_widgets_init' );   
 
- // hex to rgb
+ //hex to rgb
  function hex2rgba( $colour , $opacity = 1) {
         if ( $colour[0] == '#' ) {
                 $colour = substr( $colour, 1 );
@@ -140,8 +140,13 @@ function boilerplate_widgets_init() {
         return "rgba( {$r}, {$g}, {$b}, {$opacity} )";
 }
 
+// shortcodes
+// basic button
+add_shortcode( 'Button', 'basic_button' );
 
-
+function basic_button($atts, $content = '') {
+    return '<a class="btn">' . $content . '</a>';
+}
 
 
 

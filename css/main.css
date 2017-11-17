@@ -24,6 +24,11 @@ img {
 	max-width: 100%;
 }
 
+.btn:hover {
+	color: white;
+	background-color: red;
+}
+
 /* ========== HEADER =========== */
 
 .main-nav-container {
@@ -262,12 +267,15 @@ a:hover {
 
 /* ========= TYPOGRAPHY ============ */
 
-small a {
+small {
 	font-size: 0.75rem;
 }
 
 /* ============ LAYOUT ============= */
 
+.wrap {
+	padding: 0 1%;
+}
 
 #site-wrapper {
 	width: 96%;
@@ -353,8 +361,10 @@ footer {
 .box {
 	width: 98%; 
 	height: 120px;
+	padding-left: 0.5%;
 	border: 1px solid #777;
 	margin: 0 1% 1rem;
+	color: rgba(119, 119, 119, 0.5);
 }
 
 @media screen and (min-width: 480px) {
@@ -473,10 +483,6 @@ input[type="submit"] {
 
 
 /* ================ TOOLS =============== */
-
-.wrap {
-	padding: 0 1%;
-}
 
 .group:after {
   content: "";
