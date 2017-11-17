@@ -3,7 +3,8 @@
 * Template Name: Home Page
 */ 
 
-get_header(); ?>
+get_header(); 
+?>
 
 <!-- custom post args -->
 <?php $args = array(

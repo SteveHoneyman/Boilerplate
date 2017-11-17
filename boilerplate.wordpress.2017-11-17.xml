@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.1" created="2017-11-17 11:32" -->
+<!-- generator="WordPress/4.8.1" created="2017-11-17 15:59" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Boilerplate</title>
 	<link>http://boilerplate.dev</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 17 Nov 2017 11:32:42 +0000</pubDate>
+	<pubDate>Fri, 17 Nov 2017 15:59:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://boilerplate.dev</wp:base_site_url>
@@ -103,7 +103,7 @@
 		<dc:creator><![CDATA[Steve]]></dc:creator>
 		<guid isPermaLink="false">http://boilerplate.dev/?post_type=acf-field-group&#038;p=47</guid>
 		<description></description>
-		<content:encoded><![CDATA[a:7:{s:8:"location";a:3:{i:0;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:1:"8";}}i:2;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"12";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";}]]></content:encoded>
+		<content:encoded><![CDATA[a:7:{s:8:"location";a:5:{i:0;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:1:"8";}}i:2;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"12";}}i:3;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"63";}}i:4;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"65";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";}]]></content:encoded>
 		<excerpt:encoded><![CDATA[banner]]></excerpt:encoded>
 		<wp:post_id>47</wp:post_id>
 		<wp:post_date><![CDATA[2017-11-14 14:21:49]]></wp:post_date>
@@ -290,8 +290,8 @@
 		<wp:post_date_gmt><![CDATA[2017-11-15 11:20:24]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_5a0c228e268ac]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[group_5a0c228e268ac__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
@@ -300,6 +300,18 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510928715]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[group_5a0c228e268ac]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -316,13 +328,25 @@
 		<wp:post_date_gmt><![CDATA[2017-11-15 11:20:24]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_5a0c2294aa2cc]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[field_5a0c2294aa2cc__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>72</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510928715]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0c2294aa2cc]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Opacity</title>
@@ -338,8 +362,8 @@
 		<wp:post_date_gmt><![CDATA[2017-11-15 11:22:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_5a0c2305a6029]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[group_5a0c2305a6029__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
@@ -348,6 +372,18 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510929109]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[group_5a0c2305a6029]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -364,13 +400,25 @@
 		<wp:post_date_gmt><![CDATA[2017-11-15 11:22:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_5a0c23141938d]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[field_5a0c23141938d__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>74</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510929109]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0c23141938d]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Banner Tat</title>
@@ -501,105 +549,48 @@
 		<wp:is_sticky>0</wp:is_sticky>
 	</item>
 	<item>
-		<title>tat-holder-lge-1</title>
-		<link>http://boilerplate.dev/tat-holder-lge-1/</link>
-		<pubDate>Fri, 17 Nov 2017 11:29:44 +0000</pubDate>
+		<title>Background Colour</title>
+		<link>http://boilerplate.dev/?post_type=acf-field&#038;p=160</link>
+		<pubDate>Fri, 17 Nov 2017 14:30:19 +0000</pubDate>
 		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-1.jpg</guid>
+		<guid isPermaLink="false">http://boilerplate.dev/?post_type=acf-field&#038;p=160</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>139</wp:post_id>
-		<wp:post_date><![CDATA[2017-11-17 11:29:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-11-17 11:29:44]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<content:encoded><![CDATA[a:6:{s:4:"type";s:12:"color_picker";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[header_bg_colour]]></excerpt:encoded>
+		<wp:post_id>160</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:30:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:30:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[tat-holder-lge-1]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-1.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/11/tat-holder-lge-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:240;s:4:"file";s:28:"2017/11/tat-holder-lge-1.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"tat-holder-lge-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"tat-holder-lge-1-300x144.jpg";s:5:"width";i:300;s:6:"height";i:144;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>tat-holder-lge-2</title>
-		<link>http://boilerplate.dev/tat-holder-lge-2/</link>
-		<pubDate>Fri, 17 Nov 2017 11:29:44 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-2.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>140</wp:post_id>
-		<wp:post_date><![CDATA[2017-11-17 11:29:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-11-17 11:29:44]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[tat-holder-lge-2]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-2.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/11/tat-holder-lge-2.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:240;s:4:"file";s:28:"2017/11/tat-holder-lge-2.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"tat-holder-lge-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"tat-holder-lge-2-300x144.jpg";s:5:"width";i:300;s:6:"height";i:144;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Hello world!</title>
-		<link>http://boilerplate.dev/hello-world/</link>
-		<pubDate>Thu, 21 Sep 2017 12:30:59 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-21 12:30:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-21 12:30:59]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
+		<wp:post_name><![CDATA[field_5a0ef157274fb]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>47</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-09-21 12:30:59]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-09-21 12:30:59]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
+	</item>
+	<item>
+		<title>Background Opacity</title>
+		<link>http://boilerplate.dev/?post_type=acf-field&#038;p=162</link>
+		<pubDate>Fri, 17 Nov 2017 14:33:00 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?post_type=acf-field&#038;p=162</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:6:"number";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:3:"0.5";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:3:"min";i:0;s:3:"max";s:3:"1.0";s:4:"step";s:3:"0.1";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[background_opacity]]></excerpt:encoded>
+		<wp:post_id>162</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:33:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:33:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_5a0ef2db1b2aa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>47</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
 	</item>
 	<item>
 		<title>Home</title>
@@ -670,6 +661,22 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 			<wp:meta_key><![CDATA[_blend]]></wp:meta_key>
 			<wp:meta_value><![CDATA[field_5a0da4c21034e]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[header_bg_colour]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_header_bg_colour]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0ef157274fb]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[background_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_background_opacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0ef2db1b2aa]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Single Page</title>
@@ -702,53 +709,27 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[custom_banner]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[85]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_custom_banner]]></wp:meta_key>
 			<wp:meta_value><![CDATA[field_5a0afc0a2a7dc]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Nav Item Three</title>
-		<link>http://boilerplate.dev/nav-item-three__trashed/</link>
-		<pubDate>Thu, 21 Sep 2017 14:07:15 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/?page_id=10</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-21 14:07:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-21 14:07:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[nav-item-three__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key><![CDATA[banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[90]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page-basic-grid.php]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0d6584dbd0b]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+			<wp:meta_key><![CDATA[blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Normal]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1510679752]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[nav-item-three]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0da4c21034e]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -782,7 +763,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[custom_banner]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[85]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_custom_banner]]></wp:meta_key>
@@ -798,7 +779,9 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[nth-repeater_0_text]]></wp:meta_key>
-			<wp:meta_value><![CDATA[repeater text 1]]></wp:meta_value>
+			<wp:meta_value><![CDATA[repeater text 1
+
+&nbsp;]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_nth-repeater_0_text]]></wp:meta_key>
@@ -822,7 +805,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[banner_tat]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[90]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_banner_tat]]></wp:meta_key>
@@ -859,44 +842,6 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_nth-repeater_2_pic]]></wp:meta_key>
 			<wp:meta_value><![CDATA[field_5a0ec31158b8f]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Nav Item Five</title>
-		<link>http://boilerplate.dev/nav-item-five__trashed/</link>
-		<pubDate>Thu, 21 Sep 2017 14:07:31 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/?page_id=14</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-21 14:07:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-21 14:07:31]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[nav-item-five__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1510679749]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[nav-item-five]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1065,48 +1010,6 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>test</title>
-		<link>http://boilerplate.dev/test__trashed/</link>
-		<pubDate>Wed, 08 Nov 2017 16:01:40 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/?page_id=34</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date><![CDATA[2017-11-08 16:01:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-11-08 16:01:40]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[test__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page-single.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1510671299]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[test]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Layouts</title>
 		<link>http://boilerplate.dev/layouts/</link>
 		<pubDate>Tue, 14 Nov 2017 17:08:29 +0000</pubDate>
@@ -1220,6 +1123,30 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[page-basic-grid.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[custom_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[85]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_custom_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0afc0a2a7dc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0d6584dbd0b]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0da4c21034e]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Contact</title>
@@ -1249,6 +1176,30 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[custom_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[85]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_custom_banner]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0afc0a2a7dc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_banner_tat]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0d6584dbd0b]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_blend]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_5a0da4c21034e]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1362,36 +1313,6 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Blog</title>
-		<link>http://boilerplate.dev/blog/</link>
-		<pubDate>Thu, 16 Nov 2017 10:44:48 +0000</pubDate>
-		<dc:creator><![CDATA[Steve]]></dc:creator>
-		<guid isPermaLink="false">http://boilerplate.dev/?page_id=87</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2017-11-16 10:44:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-11-16 10:44:48]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title></title>
 		<link>http://boilerplate.dev/89/</link>
 		<pubDate>Thu, 16 Nov 2017 10:44:58 +0000</pubDate>
@@ -1444,6 +1365,68 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>tat-holder-lge-1</title>
+		<link>http://boilerplate.dev/tat-holder-lge-1/</link>
+		<pubDate>Fri, 17 Nov 2017 11:29:44 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>139</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 11:29:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 11:29:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tat-holder-lge-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-1.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/11/tat-holder-lge-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:240;s:4:"file";s:28:"2017/11/tat-holder-lge-1.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"tat-holder-lge-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"tat-holder-lge-1-300x144.jpg";s:5:"width";i:300;s:6:"height";i:144;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>tat-holder-lge-2</title>
+		<link>http://boilerplate.dev/tat-holder-lge-2/</link>
+		<pubDate>Fri, 17 Nov 2017 11:29:44 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>140</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 11:29:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 11:29:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tat-holder-lge-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://boilerplate.dev/wp-content/uploads/2017/11/tat-holder-lge-2.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/11/tat-holder-lge-2.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:240;s:4:"file";s:28:"2017/11/tat-holder-lge-2.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"tat-holder-lge-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"tat-holder-lge-2-300x144.jpg";s:5:"width";i:300;s:6:"height";i:144;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1506,6 +1489,415 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:240;s:4:"file";s:28:"2017/11/tat-holder-lge-4.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"tat-holder-lge-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"tat-holder-lge-4-300x144.jpg";s:5:"width";i:300;s:6:"height";i:144;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Custom Post One</title>
+		<link>http://boilerplate.dev/Custom%20Post/custom-post-one/</link>
+		<pubDate>Fri, 17 Nov 2017 11:42:23 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?post_type=custompost&#038;p=145</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>145</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 11:42:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 11:42:23]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[custom-post-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[custompost]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[141]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Custom Post Two</title>
+		<link>http://boilerplate.dev/Custom%20Post/custom-post/</link>
+		<pubDate>Fri, 17 Nov 2017 11:42:37 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?post_type=custompost&#038;p=146</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>146</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 11:42:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 11:42:37]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[custom-post]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[custompost]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[139]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Custom Post Test</title>
+		<link>http://boilerplate.dev/Custom%20Post/custom-post-test/</link>
+		<pubDate>Fri, 17 Nov 2017 12:03:30 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?post_type=custompost&#038;p=148</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>148</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 12:03:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 12:03:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[custom-post-test]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[custompost]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[139]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hello world!</title>
+		<link>http://boilerplate.dev/hello-world__trashed/</link>
+		<pubDate>Thu, 21 Sep 2017 12:30:59 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-21 12:30:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-21 12:30:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510929834]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-09-21 12:30:59]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-09-21 12:30:59]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Nav Item Three</title>
+		<link>http://boilerplate.dev/nav-item-three__trashed/</link>
+		<pubDate>Thu, 21 Sep 2017 14:07:15 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?page_id=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-21 14:07:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-21 14:07:15]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[nav-item-three__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-basic-grid.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510679752]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[nav-item-three]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Nav Item Five</title>
+		<link>http://boilerplate.dev/nav-item-five__trashed/</link>
+		<pubDate>Thu, 21 Sep 2017 14:07:31 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?page_id=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-21 14:07:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-21 14:07:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[nav-item-five__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510679749]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[nav-item-five]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>test</title>
+		<link>http://boilerplate.dev/test__trashed/</link>
+		<pubDate>Wed, 08 Nov 2017 16:01:40 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?page_id=34</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-08 16:01:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-08 16:01:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[test__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-single.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1510671299]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[test]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>http://boilerplate.dev/blog/</link>
+		<pubDate>Thu, 16 Nov 2017 10:44:48 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?page_id=87</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>87</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-16 10:44:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-16 10:44:48]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>First Post</title>
+		<link>http://boilerplate.dev/first-post/</link>
+		<pubDate>Fri, 17 Nov 2017 14:44:19 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?p=173</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>173</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:44:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:44:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[first-post]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[49]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Second Post</title>
+		<link>http://boilerplate.dev/second-post/</link>
+		<pubDate>Fri, 17 Nov 2017 14:44:28 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?p=175</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>175</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:44:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:44:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[second-post]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Third Post</title>
+		<link>http://boilerplate.dev/third-post/</link>
+		<pubDate>Fri, 17 Nov 2017 14:44:35 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?p=177</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>177</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:44:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:44:35]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[third-post]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Fourth Post</title>
+		<link>http://boilerplate.dev/fourth/</link>
+		<pubDate>Fri, 17 Nov 2017 14:44:42 +0000</pubDate>
+		<dc:creator><![CDATA[Steve]]></dc:creator>
+		<guid isPermaLink="false">http://boilerplate.dev/?p=179</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>179</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-17 14:44:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-17 14:44:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[fourth]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
