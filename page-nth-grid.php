@@ -3,7 +3,18 @@
 	<!-- page content starts -->
 	<div class="container wrap">
 	
-		<div class="slider"></div>
+		<?php if($slides = get_field('slider')) : ?>
+
+			<div class="slider full-width">
+				<?php foreach($slides as $slide) : 
+					if (!$image = wp_get_attachment_image_src($slide['image'] , 'large')) continue; ?>
+						<div class="slide">
+							<img src="<?php echo $image[0]?>">
+						</div>
+				<?php endforeach; ?>	
+			</div>
+
+		<?php endif; ?>
 
 		<section class="group">
 		

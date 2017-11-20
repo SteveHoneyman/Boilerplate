@@ -2,6 +2,7 @@
 // enqueue stylesheets
 function theme_styles() {
 	wp_enqueue_style('main_css', get_template_directory_uri(). '/css/main.css?v=' .time() );
+    wp_enqueue_style('slick_css', get_template_directory_uri(). '/css/slick.css');
 	}
 	
 add_action('wp_enqueue_scripts', 'theme_styles');
@@ -12,6 +13,7 @@ function theme_js() {
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', true, null, true );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script('theme_boot_js', get_template_directory_uri().'/js/boot.js', '', '', true);
+    wp_enqueue_script('slick_min_js', get_template_directory_uri().'/js/slick.min.js', '', '', true);   
 }
 
 add_action('wp_enqueue_scripts', 'theme_js');
@@ -124,6 +126,7 @@ function boilerplate_widgets_init() {
 
  //hex to rgb
  function hex2rgba( $colour , $opacity = 1) {
+        if ( !$colour) return 'transparent';
         if ( $colour[0] == '#' ) {
                 $colour = substr( $colour, 1 );
         }
