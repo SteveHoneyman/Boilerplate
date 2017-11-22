@@ -1,8 +1,5 @@
 
-/* ============ RESET =============== */
-/* --- cache tested and working 17.27 pm, 08 Nov ----*/
-/* --- cache tested and working 14.39 pm, 09 Nov ----*/
-
+/* ========= RESET ========= */
 * {
 	padding: 0;
 	border: 0;
@@ -21,12 +18,8 @@ li {
 }
 
 img {
+	display: block;
 	max-width: 100%;
-}
-
-.btn:hover {
-	color: white;
-	background-color: red;
 }
 
 /* ========== HEADER =========== */
@@ -349,7 +342,7 @@ footer {
 
 .half-width {
 	width: 98%;
-	height: 240px;
+	height: auto;
 	border: 1px solid #777;
 	margin: 0 1% 1rem 1%;
 }
@@ -479,6 +472,29 @@ input[type="submit"] {
 	}
 }
 
+/* ============ COMPONENTS =========== */
+
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    top: 45%;
+    right: 3px;
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    color: #fff;
+}
+
+button.slick-prev.slick-arrow {
+	position: absolute;
+	z-index: 10;
+    top: 45%;
+    left: 3px;
+  	width: 50px;
+    height: 50px;
+    background-color: #444;
+    color: #fff
+}
 
 /* ================ TOOLS =============== */
 
