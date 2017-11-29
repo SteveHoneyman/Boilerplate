@@ -1,4 +1,9 @@
-<?php /* Template Name: : contact */ get_header(); ?>
+<?php 
+/* 
+* Template Name: : contact 
+*/ 
+
+get_header(); ?>
 
 	<p>this is contact.php</p>
 

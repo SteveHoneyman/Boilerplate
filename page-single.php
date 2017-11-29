@@ -6,7 +6,19 @@
 		<div class="slider"></div>
 	
 		<section class="group">
-			<img src="<?php bloginfo('template_directory'); ?>/images/image-2000.svg" class="full-width-empty">
+
+			<?php if(is_page(8) && $map = get_field('map' , 'options') ) : ?>
+
+				<div class="map">
+					<div 
+						id="map" 
+						data-lat="<?php echo $map['lat'] ?>"
+						data-lng="<?php echo $map['lng'] ?>"
+					>
+					</div>
+				</div>	
+
+			<?php endif; ?>	
 			
 			<div class="full-width-empty wrap">
 

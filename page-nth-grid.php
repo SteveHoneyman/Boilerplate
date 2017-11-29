@@ -1,4 +1,8 @@
-<?php /* Template Name: :nth-child layout */ get_header(); ?>
+<?php 
+/* Template Name: 
+* :nth-child layout 
+*/ 
+get_header(); ?>
 
 	<!-- page content starts -->
 	<div class="container wrap">
